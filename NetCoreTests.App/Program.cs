@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace helloworld
+﻿namespace NetCoreTests.App
 {
     internal static class Program
     {
@@ -8,7 +6,6 @@ namespace helloworld
         {
             Console.WriteLine($"Hello World! arguments: {args.Length}");
             throw new Exception("Test Exception");
-            //öslajdoijhjwsa
         }
     }
 }
