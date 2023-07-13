@@ -30,4 +30,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NetCoreTests.App\NetCoreTests.App.csproj" />
+  </ItemGroup>
+
 </Project>
