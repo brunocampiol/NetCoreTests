@@ -4,7 +4,7 @@ using Xunit.Abstractions;
 
 namespace NetCoreTests.XUnit
 {
-    public class GuidServiceTest
+    public sealed class GuidServiceTest
     {
         // By default, xUnit is a transient type of intance.
         // Means it will have a new instance per test case.

@@ -4,7 +4,7 @@ using NUnit.Framework;
 namespace NetCoreTests.NUnit
 {
     [TestFixture]
-    public class GuidServiceTest
+    public sealed class GuidServiceTest
     {
         // By default, NUnit initializes only once per test class
         private readonly GuidService _sut = new();

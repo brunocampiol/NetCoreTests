@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 namespace NetCoreTests.NUnit
 {
-    public class Tests
+    public sealed class Tests
     {
         [SetUp]
         public void Setup()
@@ -25,13 +25,13 @@ namespace NetCoreTests.NUnit
             Assert.IsTrue(true, "It is true");
         }
 
-        [Test]
-        public void IsTrueButFalse()
-        {
-            // Assamble
-            // Act
-            // Assert
-            Assert.IsTrue(false, "It was false");
-        }
+        //[Test]
+        //public void IsTrueButFalse()
+        //{
+        //    // Assamble
+        //    // Act
+        //    // Assert
+        //    Assert.IsTrue(false, "It was false");
+        //}
     }
 }

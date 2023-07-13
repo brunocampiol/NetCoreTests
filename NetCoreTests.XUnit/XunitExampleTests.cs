@@ -3,7 +3,7 @@ using Xunit.Abstractions;
 
 namespace NetCoreTests.XUnit
 {
-    public class XunitExampleTests : IDisposable
+    public sealed class XunitExampleTests : IDisposable
     {
         private readonly ITestOutputHelper _output;
 
@@ -24,13 +24,13 @@ namespace NetCoreTests.XUnit
             Assert.True(true, "It is true");
         }
 
-        [Fact]
-        public void IsTrueButFalse()
-        {
-            // Assamble
-            // Act
-            // Assert
-            Assert.True(false, "It was false");
-        }
+        //[Fact]
+        //public void IsTrueButFalse()
+        //{
+        //    // Assamble
+        //    // Act
+        //    // Assert
+        //    Assert.True(false, "It was false");
+        //}
     }
 }

@@ -3,7 +3,7 @@ using Xunit;
 
 namespace NetCoreTests.XUnit
 {
-    public class FibonacciServiceTests
+    public sealed class FibonacciServiceTests
     {
         [Fact]
         public void NthFibonacciNumber_WhenFirstSequenceIndex_ExpectsZero()
