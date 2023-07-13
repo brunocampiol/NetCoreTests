@@ -4,10 +4,17 @@ namespace NetCoreTests.NUnit
 {
     public class Tests
     {
-        //[SetUp]
-        //public void Setup()
-        //{
-        //}
+        [SetUp]
+        public void Setup()
+        {
+            TestContext.Out.WriteLine("Setup");
+        }
+
+        [TearDown]
+        public void TearDown()
+        {
+            TestContext.Out.WriteLine("TearDown");
+        }
 
         [Test]
         public void IsTrueAndTrue()
