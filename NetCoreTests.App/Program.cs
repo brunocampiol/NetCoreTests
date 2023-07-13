@@ -4,8 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine($"Hello World! arguments: {args.Length}");
-            throw new Exception("Test Exception");
+            Console.WriteLine($"Hello World! arguments count: {args.Count()}");
         }
     }
 }
