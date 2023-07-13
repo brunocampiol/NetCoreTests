@@ -1,8 +1,6 @@
-using System;
-using System.Reflection;
 using Xunit;
 
-namespace helloworldxunit.test
+namespace NetCoreTests.XUnit
 {
     public class XunitTrueTesting
     {

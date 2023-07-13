@@ -1,6 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace helloworldmstest.test
+namespace NetCoreTests.MsTest
 {
     [TestClass]
     public class MstestTrueTesting

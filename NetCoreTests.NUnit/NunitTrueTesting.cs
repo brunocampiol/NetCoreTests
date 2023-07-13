@@ -1,11 +1,9 @@
 using NUnit.Framework;
 
-namespace Tests
+namespace NetCoreTests.NUnit
 {
     public class Tests
     {
-        
-
         //[SetUp]
         //public void Setup()
         //{
