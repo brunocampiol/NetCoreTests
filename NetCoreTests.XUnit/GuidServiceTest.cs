@@ -6,7 +6,7 @@ namespace NetCoreTests.XUnit
 {
     public sealed class GuidServiceTest
     {
-        // By default, xUnit is a transient type of intance.
+        // By default, xUnit is a transient type of instance.
         // Means it will have a new instance per test case.
         private readonly GuidService _sut = new();
         private readonly ITestOutputHelper _output;
@@ -19,7 +19,7 @@ namespace NetCoreTests.XUnit
         [Fact]
         public void Guid_IsNotEmpty()
         {
-            // Assamble
+            // Assemble
             // Act
             var id = _sut.Id;
             // Assert
@@ -30,7 +30,7 @@ namespace NetCoreTests.XUnit
         [Fact]
         public void Guid_IsNotEmpty2()
         {
-            // Assamble
+            // Assemble
             // Act
             var id = _sut.Id;
             // Assert

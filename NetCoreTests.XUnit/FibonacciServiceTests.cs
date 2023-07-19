@@ -8,7 +8,7 @@ namespace NetCoreTests.XUnit
         [Fact]
         public void NthFibonacciNumber_WhenFirstSequenceIndex_ExpectsZero()
         {
-            // Assamble
+            // Assemble
             // Act
             var actualResult = FibonacciService.NthFibonacciNumber(0);
 
@@ -19,7 +19,7 @@ namespace NetCoreTests.XUnit
         [Fact]
         public void NthFibonacciNumber_WhenSecondSequenceIndex_ExpectsOne()
         {
-            // Assamble
+            // Assemble
             // Act
             var actualResult = FibonacciService.NthFibonacciNumber(1);
 
@@ -30,7 +30,7 @@ namespace NetCoreTests.XUnit
         [Fact]
         public void NthFibonacciNumber_When13SequenceIndex_Expects233()
         {
-            // Assamble
+            // Assemble
             // Act
             var actualResult = FibonacciService.NthFibonacciNumber(13);
 

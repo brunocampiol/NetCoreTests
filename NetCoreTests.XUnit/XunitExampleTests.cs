@@ -18,7 +18,7 @@ namespace NetCoreTests.XUnit
         [Fact]
         public void IsTrueAndTrue()
         {
-            // Assamble
+            // Assemble
             // Act
             // Assert
             Assert.True(true, "It is true");
@@ -27,7 +27,7 @@ namespace NetCoreTests.XUnit
         //[Fact]
         //public void IsTrueButFalse()
         //{
-        //    // Assamble
+        //    // Assemble
         //    // Act
         //    // Assert
         //    Assert.True(false, "It was false");

@@ -8,7 +8,7 @@ namespace NetCoreTests.MsTest
         [TestMethod]
         public void IsTrueAndTrue()
         {
-            // Assamble
+            // Assemble
             // Act
             // Assert
             Assert.IsTrue(true, "It is true");
@@ -17,7 +17,7 @@ namespace NetCoreTests.MsTest
         //[TestMethod]
         //public void IsTrueButFalse()
         //{
-        //    // Assamble
+        //    // Assemble
         //    // Act
         //    // Assert
         //    Assert.IsTrue(false, "It was false!");

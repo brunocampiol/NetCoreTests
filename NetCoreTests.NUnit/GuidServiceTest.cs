@@ -12,7 +12,7 @@ namespace NetCoreTests.NUnit
         [Test]
         public void Guid_IsNotEmpty()
         {
-            // Assamble
+            // Assemble
             // Act
             var id = _sut.Id;
             // Assert
@@ -23,7 +23,7 @@ namespace NetCoreTests.NUnit
         [Test]
         public void Guid_IsNotEmpty2()
         {
-            // Assamble
+            // Assemble
             // Act
             var id = _sut.Id;
             // Assert
