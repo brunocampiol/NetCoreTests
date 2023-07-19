@@ -34,6 +34,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\NetCoreTests.App\NetCoreTests.App.csproj" />
+    <ProjectReference Include="..\NetCoreTests.Common\NetCoreTests.Common.csproj" />
   </ItemGroup>
 
 </Project>
